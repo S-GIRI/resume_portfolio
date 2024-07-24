@@ -1,0 +1,121 @@
+/* General Styles */
+.promail{
+       margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.links{
+    margin-left: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color:darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+header p {
+    font-size: 1.2em;
+    color:white;
+}
+
+/* Profile Picture */
+.profile {
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section .job, section .institution {
+    margin-bottom: 20px;
+}
+
+section .skill {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .bar {
+    height: 10px;
+    background-color: #007BFF;
+    border-radius: 5px;
+    margin-top: 5px;
+} */
+
+/* Contact Info Styles */
+.contact-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
